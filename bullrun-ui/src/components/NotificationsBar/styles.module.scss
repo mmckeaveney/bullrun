@@ -1,0 +1,18 @@
+.notificationBar {
+  color: rebeccapurple;
+  padding: 10px;
+  border: 1px solid rebeccapurple;
+  height: 100vh;
+  overflow-y: auto;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: -4px 7px 32px -19px rgba(38,38,38,1);;
+  margin: 10px;
+
+  .notification {
+    border: 1px solid rebeccapurple;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+  }
+}

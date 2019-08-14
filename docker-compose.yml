@@ -1,0 +1,17 @@
+version: "3.7"
+services:
+  redis:
+    image: redis:alpine
+  bullrun-ui:
+    ports:
+      - "3000:3000"
+    build:
+      context: bullrun-ui
+  bullrun-backend:
+    build:
+      context: bullrun-backend
+    ports:
+      - "5000:5000"
+    depends_on:
+      - redis
+

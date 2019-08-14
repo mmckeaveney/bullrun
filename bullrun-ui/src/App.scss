@@ -1,0 +1,18 @@
+$bullrun-gradient: linear-gradient(to right, #8e2de2, #4a00e0);
+
+.App__header {
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  min-height: 10vh;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-weight: bold;
+}
+
+.App__container {
+  display: grid;
+  grid-template-columns: 1fr 20%;
+  grid-gap: 20px;
+}
